@@ -63,10 +63,124 @@ nav {
     border: none;
     background: #9ee76f;
     font-size: 14px;
+    font-weight: 700;
+    
+}
+
+.btn-primary {
+    border-radius: 30px;
+    padding: 8px 16px;
+    border: none;
+    background: #fafbfa;
+    font-size: 14px;
+    color:black;
+    font-weight: 700;
     
 }
 
 .btn-a-link {
     text-decoration: none;
     color:black;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hero {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 82%;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.left-container {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+}
+
+.weather-widget {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px;
+    color:#cfaf7c;
+}
+
+.weather-widget {
+    border: 1px solid #cfaf7c;
+    border-radius: 5px;
+    padding: 2.5px 5px;
+    background: transparent;
+}
+
+.a-link-weather {
+    text-decoration: none;
+}
+
+.forecast-btn {
+
+}
+
+.title-hero {
+    color: white;
+    font-size: 42px;
+    width: 90%;
+}
+
+.p-hero {
+    color: white;
+    text-wrap: auto;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.left-btn-container {
+    margin-top:20px;
+}
+
+#btn-left-cont {
+    margin-left:15px;
+}
+
+.right-containter {
+
+}
+
+.hero-image {
+    width: 500px;
+    border-radius: 5px;
+}
+
+.bottom-container-hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 82%;
+    margin-top: 30px;
+}
+
+.bottom-text-hero {
+    color: white;
+    text-wrap: auto;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.bottom-logo {
+    width: 170px;
+}
+
+.bottom-logo-coast {
+    width:70px;
+}
+
+.bottom-logo-FFWL {
+    width:50px;
 }
